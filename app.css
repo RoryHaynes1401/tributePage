@@ -1,8 +1,9 @@
 body {
 
-  background-color: white;
+  background: linear-gradient(to bottom right, #d3d3d3 0%, #ffffff 100%);
   color: black;
   font-family: 'Josefin Sans', sans-serif;
+
 
 }
 
@@ -27,13 +28,14 @@ header {
     margin: auto;
     width: 50%;
     text-align: left;
-    background: linear-gradient(to bottom right, #d3d3d3 0%, #ffffff 100%);
+
     background-size: cover;
 }
 #tribute-info {
     margin: 5px auto;
     line-height: 1.4;
     padding-left: 5;
+    font-weight: 800;
 }
 #tribute-info li {
     display: inline;
@@ -42,5 +44,6 @@ header {
 
 #wiki-link{
     text-align: center;
+    font-style: italic;
 
 }
